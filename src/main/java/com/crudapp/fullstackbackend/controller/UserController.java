@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:3000") // połączenie "mapowania" dla funkcji które wpływają na bazę danych z frontendem
 public class UserController {
 
     private final UserRepository userRepository;
